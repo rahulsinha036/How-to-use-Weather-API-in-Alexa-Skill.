@@ -24,8 +24,8 @@ const WeatherIntentHandler = {
         var axios = require('axios'); // Axios is a JavaScript library used to perform HTTP requests
         const city_name = handlerInput.requestEnvelope.request.intent.slots.city.value;// calling the slot's value city.
         function api_url(){ // here we have made a function api_url
-            return `http://api.openweathermap.org/data/2.5/weather?appid=6abf0521dc1c853f6f2bc1c64b6b6745&q=${city_name}&units=metric` //{units=metric} --> celsius and {units=imperial} --> fahrenheit
-        } // api_url fuction is calling the data with the help of api. 
+            return `http://api.openweathermap.org/data/2.5/weather?appid=6abf0521dcc853f6f2bc1c64b6745&q=${city_name}&units=metric` //{units=metric} --> celsius and {units=imperial} --> fahrenheit
+        } // api_url fuction is calling the data with the help of api. // replace with your api id
         
         return axios.get(api_url())
             .then(function(response) { // response means that the signal has been send to the server.
