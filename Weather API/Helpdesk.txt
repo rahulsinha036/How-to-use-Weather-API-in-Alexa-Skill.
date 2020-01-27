@@ -1,0 +1,7 @@
+Dekh bhai WeatherIntent handler me dekhna 
+ek jada likha hoga appid=6abf0521dc1c853f6f2bc1c64b6b6745
+to bas iss number to change krdo or kuch mat krna.
+yeh number hi api key hai.
+
+or yeh link ---> https://www.youtube.com/watch?v=oN4ohLj0fkY
+how to generate api key in https://openweathermap.org/appid
